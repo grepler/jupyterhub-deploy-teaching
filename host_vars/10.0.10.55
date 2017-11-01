@@ -234,7 +234,7 @@ local_mounts: []
 # letsencrypt to generate SSL key/cert, set `use_letsencrypt` to `true`
 # Otherwise if not using letsencrypt for SSL, you MUST put your key and cert
 # into the security directory as `security/ssl.crt` and `security/ssl.key`.
-use_letsencrypt: true
+use_letsencrypt: false
 letsencrypt_email: 'wellwood@ellwood.com'
 
 # Should users have `/public_html/username` directories. Set this to `true` to
